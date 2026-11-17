@@ -13,7 +13,7 @@ import {
   CheckCircle2,
 } from "lucide-react";
 
-const API_BASE = process.env.NEXT_PUBLIC_API_URL || "http://127.0.0.1:8000/api/v1";
+const API_BASE = process.env.NEXT_PUBLIC_API_URL || "https://e-commerce-backend-153p.onrender.com/api/v1";
 const GOOGLE_CLIENT_ID = "643600505402-qfbt52mg2j51v9jmnam1cso3mslpnhhi.apps.googleusercontent.com";
 
 export default function LoginPage() {
